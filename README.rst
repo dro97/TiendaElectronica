@@ -1,13 +1,13 @@
 ﻿# Título del Proyecto
 
-_Tienda electronica_
+Tienda electronica
 
-## Comenzando 🚀
+## Comenzando 🚀:
 
-_Descarga el repositorio de TiendaElectronica , en las conexiones que se utilizan en php, cambia la contraseña de la base da datos, asi tambien el nombre de la base de datos , dependiendo la conexion en php
+Descarga el repositorio de TiendaElectronica , en las conexiones que se utilizan en php, cambia la contraseña de la base da datos, asi tambien el nombre de la base de datos , dependiendo la conexion en php
 
-###Descripcion:___Software que emula una tienda de componentes electronicas simulando una caja registradora
-### Pre-requisitos 📋
+###Descripcion: Software que emula una tienda de componentes electronicas simulando una caja registradora
+### Pre-requisitos 📋:
 
 Dependencias y Software
 Se necesita 
@@ -15,7 +15,7 @@ Se necesita
 *MYSQL
 *Editor de texto
 
-### Modulos 🔧
+### Modulos 🔧:
 
 Login Alta en todas las identidades
 Modificar en todas las identidades
