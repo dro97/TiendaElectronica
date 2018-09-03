@@ -23,11 +23,12 @@ Eliminar en todas la identidades
 Carrito de compras
 
 ## Instalacion:
-
+###
 Para instalar mysql : sudo apt-get update
   sudo apt-get install mysql-server__mysql-client__sudo mysql_secure_installation__sudo apt-get install mysql-workbench
   
-  Para instalar XAMPP:Primero se descarga .run de xampp__chmod + x xampp-linux-x64-7.1.10-0-installer.ru__ se sigue los pasos de instalacion__sudo /opt/lampp/lampp start
- ### Ejemplo 📦
+  Para instalar XAMPP: Primero se descarga .run de xampp__chmod + x xampp-linux-x64-7.1.10-0-installer.ru__ se sigue los pasos de instalacion__sudo /opt/lampp/lampp start
+  ###
+ ## Ejemplo 📦
 
 localhost/tiendaelec##
