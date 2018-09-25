@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ <meta charset="UTF-8">
+<html>
+<title>Alta</title>
+<body>
+    <p><button class="cerrar" style="vertical-align:middle"><span>Cerrar Sesion </span></button></p>
+  <center>
+    <button class="usuario" style="vertical-align:middle"><span>Alta Usuario </span></button>
+    <br>
+<button class="boton" style="vertical-align:middle"><span>Alta Productos </span></button>
+    <br>
+<button class="ocultar" style="vertical-align:middle"><span>Alta Proveedor </span></button>
+<br>
+ <button class="usuarios" style="vertical-align:middle"><span>Regresar </span></button>
+    </center>
+
+    <script>
+    $( "button.usuario" ).click(function() {
+  location.href="altaUsuarios.php";
+  /*$( "form.alta" ).toggle("slow");
+    $( "button.boton" ).hide(500);
+    $( "button.button" ).hide(500);
+     $( "button.ocultar" ).show(500);
+      //$( "p.modificar" ).hide();
+x=1;*/
+});
+            $( "button.cerrar" ).click(function() {
+  location.href="cerrarsesion.php";
+  /*$( "form.alta" ).toggle("slow");
+    $( "button.boton" ).hide(500);
+    $( "button.button" ).hide(500);
+     $( "button.ocultar" ).show(500);
+      //$( "p.modificar" ).hide();
+x=1;*/
+});
+
+
+
+
+
+    </script>
+
+
+    </body>
+</html>

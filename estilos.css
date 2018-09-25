@@ -1,0 +1,155 @@
+body {
+    background-color: white;
+}
+
+p {
+    color: skyblue;
+}
+a{
+
+  position: relative;
+  right:  200px;
+
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    position: relative;
+    right:  200px;
+
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.alta{
+    position: relative;
+    right: 0px;
+    bottom:  80px;
+}
+.modificar{
+     position: relative;
+    right: 0px;
+    bottom:80px;
+}
+
+.reporte{
+     position: relative;
+    right: 0px;
+    bottom:80px;
+}
+.ocultar{
+         display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+
+  font-size: 20px;
+  padding: 5px;
+  width: 200px;
+    height: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    position: relative;
+top: 250px;
+    right:0px;
+
+}
+.reporte{
+         display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+
+  font-size: 20px;
+  padding: 5px;
+  width: 200px;
+    height: 30px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    position: relative;
+top: 10px;
+    left: 200px;
+
+}
+
+
+
+
+.boton{
+     display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 300px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+    position: relative;
+    right:  50px;
+}
+.boton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.boton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.boton:hover span {
+  padding-right: 25px;
+}
+
+.boton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
