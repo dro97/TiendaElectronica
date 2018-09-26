@@ -28,18 +28,16 @@
 </div>
     <br><br><br><br><br><br><br><br><br><br><br><br>v
   <center>
-  <br><button class="usuario" style="vertical-align:middle"><span>Alta Usuarios </span></button>
+  <br><button class="usuario" style="vertical-align:middle"><span>Reporte Usuarios </span></button>
 <br><br><br><br>
-<br><button class="componentes" style="vertical-align:middle"><span>Alta Productos </span></button>
+<br><button class="componentes" style="vertical-align:middle"><span>Reporte Productos </span></button>
 <br><br><br><br>
-<br><button class="proveedor" style="vertical-align:middle"><span>Alta Proveedor </span></button>
-<br><br><br><br>
-<br> <button class="regresar" style="vertical-align:middle"><span>Regresar </span></button>
+
     </center>
 
     <script>
     $( "button.usuario" ).click(function() {
-  location.href="altaUsuarios.php";
+  location.href="reporte.php";
   /*$( "form.alta" ).toggle("slow");
     $( "button.boton" ).hide(500);
     $( "button.button" ).hide(500);
@@ -57,7 +55,7 @@ x=1;*/
 x=1;*/
 });
                $( "button.componentes" ).click(function() {
-  location.href="altaComponentes.php";
+  location.href="CrossJoin.php";
   /*$( "form.alta" ).toggle("slow");
     $( "button.boton" ).hide(500);
     $( "button.button" ).hide(500);

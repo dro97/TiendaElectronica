@@ -3,7 +3,19 @@
 <html>
 
     <head>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
+  <link rel='stylesheet' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+<link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+
+      <link rel="stylesheet" href="css/styleBoton.css">
+ <link rel="stylesheet"  href="src/css/lightslider.css"/>
+
+
+    <script  src="js/index.js"></script>
     <link rel="stylesheet" href="estilos.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
@@ -16,12 +28,15 @@ $(document).ready(function(){
 </script>
     <style>
 #panel {
-   //width: 300px;
-   // height: 300px;
-    padding: 5px;
+    position: relative;
+   width: 1122px;
+    height: 100px;
+    padding: 1px;
     text-align: center;
-    background-color: #e5eecc;
+    background-color:#6acf5c ;
     border: solid 10px #c3c3c3;
+
+  margin-top: 100px;
 }
 
         #flip{
@@ -29,7 +44,7 @@ $(document).ready(function(){
 
      text-align:  center;
           background-color: azure;
-            border: solid 10px #c3c3c3;
+            border: solid 10px #4e9045;
         }
         #flip2{
              width: 200px;
@@ -45,21 +60,26 @@ $(document).ready(function(){
 
 
 #panel {
-    padding: 50px;
+    padding: 100px;
     display: none;
 }
 </style>
 
 </head>
 
-<body>
+<body background="css/electronica.jpg">
+
      <?php
       include("seguridad.php");
 
 
         ?>
-    <p><button class="cerrar" style="vertical-align:middle"><span>Cerrar Sesion </span></button></p>
-<div id="flip">Presiona para desplegar</div>
+<div class="container">
+  <button id="button" class="cerrar">Cerrar Sesion</button>
+</div>
+    <br><br><br><br>
+
+<div id="flip"><p style="font-family: times, serif; font-size:14pt; font-style:italic">Presiona para desplegar</p></div>
 <div id="panel">
 
 <button class="button" style="vertical-align:middle"><span>Alta </span></button>
@@ -103,7 +123,7 @@ $( "button.usuarios" ).click(function() {
 
 
     $( "button.boton" ).click(function() {
-      location.href="reporte.php";
+      location.href="MenuComponentes.php";
   /*$( "iframe.reporte" ).toggle("slow");
   //    $( "p.alta" ).hide());
         $( "button.boton" ).hide(500);
@@ -135,6 +155,7 @@ $( "button.usuarios" ).click(function() {
 
 
 </script>
+    </div>
     </div>
 </body>
 </html>

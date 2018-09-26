@@ -1,8 +1,27 @@
 <!DOCTYPE html>
 <html>
+    <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+ <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <link rel='stylesheet' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
+<link rel='stylesheet' href='https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+
+      <link rel="stylesheet" href="css/styleBoton.css">
+
+      <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleBoton.css">
+    </head>
 <body>
-     <a href="cerrarsesion.php">Cerrar Sesion</a>
-<table>
+     <div class="container">
+         <button id="button" class="cerrar">Cerrar Sesion</button></div>
+<table class="rwd-table">
   <tr>
 <th>IdComponente</th>
 <th>Nombre</th>
@@ -28,8 +47,8 @@ $result=$conexion->query($query);
 {?>
 
   <tr>
-<td><?php echo $row['id'];?></td>
-<td><?php echo $row['nombre'];?></td>
+<td ><?php echo $row['id'];?></td>
+<td ><?php echo $row['nombre'];?></td>
 <td><?php echo $row['descripcion'];?></td>
 <td><?php echo $row['precio'];?></td>
 <td><?php echo $row['existencias'];?></td>
@@ -45,8 +64,7 @@ $result=$conexion->query($query);
  ?>
 </table>
 <a href="MenuPrincipal.php">Regresar</a>
-<a href="UsuariosToExcel.php">Excel</a>
- <a href="UsuariosCSV.php">CSV</a>
+
 
  <div>
             <form class="form-horizontal" action="exportarCrossJoin.php" method="post" name="upload_excel"
@@ -58,7 +76,18 @@ $result=$conexion->query($query);
                    </div>
             </form>
  </div>
-
+<script>
+   var x=0,y=0;
+$( "button.cerrar" ).click(function() {
+  location.href="cerrarsesion.php";
+  /*$( "form.alta" ).toggle("slow");
+    $( "button.boton" ).hide(500);
+    $( "button.button" ).hide(500);
+     $( "button.ocultar" ).show(500);
+      //$( "p.modificar" ).hide();
+x=1;*/
+});
+    </script>
 </body>
 
 </html>

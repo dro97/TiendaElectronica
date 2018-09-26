@@ -1,7 +1,7 @@
   <?php
         session_start();
         if(isset($_SESSION['u_usuario'])){
-            echo "Sesion exitosa\n Bienvenido";
+            //echo "Sesion exitosa\n Bienvenido";
 
         }
         else{
