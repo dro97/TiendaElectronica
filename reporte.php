@@ -51,8 +51,8 @@ $result=$conexion->query($query);
 <td data-th="Telefono"><?php echo $row['telefono'];?></td>
 <td data-th="Email"><?php echo $row['email'];?></td>
 
-<td><a href="modificar.php?id=<?php echo $row['nombre'];?>">Modificar</a></td>
-<td><a href="eliminar.php?id=<?php echo $row['nombre'];?>">Eliminar</a></td>
+<td><a href="modificar.php?id=<?php echo $row['nombre'];?>"><img src="img/editar.png" height="20px" width="20px"></a></td>
+<td ><a href="eliminar.php?id=<?php echo $row['nombre'];?>" ><img src="img/eliminar.png" height="20px" width="20px"></a></td>
 </tr>
 <?php
 }
@@ -64,7 +64,7 @@ $result=$conexion->query($query);
                       enctype="multipart/form-data">
                   <div class="form-group">
                             <div class="col-md-4 col-md-offset-4">
-                                <input type="submit" name="Export" class="btn btn-success" value="export to excel"/>
+                                <input type="submit" name="Export" class="btn btn-success"  value="export to excel"/>
                             </div>
 
                    </div>

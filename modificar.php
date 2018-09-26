@@ -2,7 +2,7 @@
  <meta charset="UTF-8">
 <html>
 <title="Modificar">
-
+    </title>
 <body>
 
     <?php
