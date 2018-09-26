@@ -45,16 +45,16 @@ $query="SELECT * FROM componentes CROSS JOIN proveedor";
 $result=$conexion->query($query);
   while($row = mysqli_fetch_array($result))
 {?>
-
+<br><br><br>
   <tr>
 <td ><?php echo $row['id'];?></td>
-<td ><?php echo $row['nombre'];?></td>
+<td ><?php echo $row['nombreComponentes'];?></td>
 <td><?php echo $row['descripcion'];?></td>
 <td><?php echo $row['precio'];?></td>
 <td><?php echo $row['existencias'];?></td>
 <td><?php echo $row['idProveedor'];?></td>
 <td><?php echo $row['id'];?></td>
-<td><?php echo $row['nombre'];?></td>
+<td><?php echo $row['nombreProveedor'];?></td>
 <td><?php echo $row['apellido'];?></td>
 <td><?php echo $row['correo'];?></td>
  <td><?php echo $row['idEmpresa'];?></td>

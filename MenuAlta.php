@@ -26,15 +26,18 @@
 <div class="container">
   <button id="button" class="cerrar">Cerrar Sesion</button>
 </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br>v
+    <br><br><br><br><br><br><br><br><br><br><br>
   <center>
   <br><button class="usuario" style="vertical-align:middle"><span>Alta Usuarios </span></button>
-<br><br><br><br>
+<br><br><br>
 <br><button class="componentes" style="vertical-align:middle"><span>Alta Productos </span></button>
-<br><br><br><br>
+<br><br><br>
 <br><button class="proveedor" style="vertical-align:middle"><span>Alta Proveedor </span></button>
-<br><br><br><br>
+<br><br><br>
+  
 <br> <button class="regresar" style="vertical-align:middle"><span>Regresar </span></button>
+
+      
     </center>
 
     <script>
@@ -77,6 +80,15 @@ x=1;*/
 
                $( "button.regresar" ).click(function() {
   location.href="MenuPrincipal.php";
+  /*$( "form.alta" ).toggle("slow");
+    $( "button.boton" ).hide(500);
+    $( "button.button" ).hide(500);
+     $( "button.ocultar" ).show(500);
+      //$( "p.modificar" ).hide();
+x=1;*/
+});
+                   $( "button.empresa" ).click(function() {
+  location.href="altaEmpresa.php";
   /*$( "form.alta" ).toggle("slow");
     $( "button.boton" ).hide(500);
     $( "button.button" ).hide(500);

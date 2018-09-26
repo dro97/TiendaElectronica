@@ -32,7 +32,7 @@
 <br><br><br><br>
 <br><button class="componentes" style="vertical-align:middle"><span>Reporte Productos </span></button>
 <br><br><br><br>
-
+<br><button class="regresar" style="vertical-align:middle"><span>Regresar </span></button>
     </center>
 
     <script>

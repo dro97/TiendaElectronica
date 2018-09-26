@@ -9,11 +9,11 @@
 <a href="cerrarsesion.php">Cerrar Sesion</a>
 
 <form class="alta"  method="post" action="ConexionProveedor.php">
-<center>  <p>ID  :<input type="text" name="nombre"><br></p>
-<p>Nombre  :<input type="text" required name="apellido"><br> </p>
-<p>Apellido:<input type="text" required name="direccion"><br></p>
-<p>Correo :<input type="text" required name="telefono"><br></p>
-<p>ID Empresa  :<input type="text" required name="email"><br></p>
+<center>  
+<p>Nombre  :<input type="text" required name="nombreProveedor"><br> </p>
+<p>Apellido:<input type="text" required name="apellido"><br></p>
+<p>Correo :<input type="text" required name="correo"><br></p>
+<p>ID Empresa  :<input type="text" required name="idEmpresa"><br></p>
 <input class="Boton" type="Submit" name="enviar" value="Aceptar información"></center>
 </form>
     <button  class="regresar" style="vertical-align:middle">Regresar </button>
